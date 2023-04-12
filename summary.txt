@@ -1,0 +1,23 @@
+lib/main.dart 중심 코드 변경
+
+#import 'package:flutter/material.dart'; //위의 코드로 시작
+
+//메인 필수
+void main() {
+    runApp(MyApp());
+}
+
+//보통 클래스의 형태
+class MyApp extends StatelessWidget {
+    @override
+    Widget build(BuildContext context) {
+        return MaterialApp(
+            title: 'title',
+            theme: ThemeDate(
+                primarySwatch: Colors.blue,
+                visualDensity: VisualDensity.adaptivePlatformDensity,
+            ),
+            home: MyHomePage(title: 'title'),
+        );
+    }
+}
