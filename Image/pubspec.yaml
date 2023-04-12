@@ -60,7 +60,9 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   # ==============================================================================
-  //변경한 부분
+//image 폴더, font 폴더 생성 후 각 폴더에 png, ttf 파일 삽입
+//변경한 부분
+  
   assets:
     - image/
 
@@ -69,9 +71,8 @@ flutter:
       fonts:
         - asset: font/NanumGothic.ttf
           weight: 400
+
 //변경한 부분
-
-
 
   # ==============================================================================
   # To add assets to your application, add an assets section, like this:
