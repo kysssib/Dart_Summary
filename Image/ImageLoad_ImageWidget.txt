@@ -1,3 +1,4 @@
+//main과 같은 파일에 따로 작성
 import 'package:flutter/material.dart';
 
 class ImageWidgetApp extends StatefulWidget{
