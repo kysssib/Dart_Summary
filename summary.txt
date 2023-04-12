@@ -10,14 +10,14 @@ void main() {
 //보통 클래스의 형태
 class MyApp extends StatelessWidget {
     @override
-    Widget build(BuildContext context) {
+    Widget build(BuildContext context) { //build는 BuildContext context를 인수로 받아 MaterialApp 반환
         return MaterialApp(
             title: 'title',
             theme: ThemeDate(
                 primarySwatch: Colors.blue,
                 visualDensity: VisualDensity.adaptivePlatformDensity,
             ),
-            home: MyHomePage(title: 'title'),
+            home: MyHomePage(title: 'title'), //home에 home페이지 삽입
         );
     }
 }
